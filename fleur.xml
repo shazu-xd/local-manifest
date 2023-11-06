@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="shazu-xd"
+		fetch="https://github.com/shazu-xd" />
+
+        <remote name="shazuxd"
+                fetch="https://gitlab.com/shazuxd1" />
+
+<!-- Remove Repos -->
+<remove-project name="system_sepolicy"/>
+<remove-project name="system_bpf"/>
+
+<!-- DT -->
+<project path="device/xiaomi/fleur" name="device_xiaomi_fleur" remote="shazu-xd" revision="14"/>
+<!-- IMS VT -->
+<project path="vendor/xiaomi/fleur" name="vendor_xiaomi_fleur" remote="shazu-xd" revision="twelve"/>
+<!-- Vendor -->
+<project path="device/xiaomi/fleur-vendor" name="device_xiaomi_fleur-vendor" remote="shazuxd" revision="thirteen"/>
+<!-- Sepolicy -->
+<project path="system/sepolicy" name="system_sepolicy" remote="shazu-xd" revision="14"/>
+<project path="system/bpf" name="system_bpf" remote="shazu-xd" revision="14"/>
+
+</manifest>
