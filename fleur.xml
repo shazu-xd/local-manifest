@@ -11,7 +11,7 @@
 
 <!-- Remove Repos -->
 <remove-project name="system_sepolicy"/>
-<remove-project name="system_bpf"/>
+<!-- <remove-project name="system_bpf"/> -->
 <remove-project name="packages_modules_Connectivity"/>
 <remove-project name="platform/frameworks/libs/net"/>
 <remove-project name="platform/system/netd"/>
@@ -25,7 +25,7 @@
 <!-- Sepolicy -->
 <project path="system/sepolicy" name="system_sepolicy" remote="shazu-xd" revision="14"/>
 <!-- BPF -->
-<project path="system/bpf" name="system_bpf" remote="shazu-xd" revision="14"/>
+<!-- <project path="system/bpf" name="system_bpf" remote="shazu-xd" revision="14"/> -->
 <!-- Netd -->
 <project path="system/netd" name="system_netd" remote="msm8998" revision="14-hack"/>
 <!-- Connectivity -->
