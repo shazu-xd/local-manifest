@@ -22,7 +22,7 @@
 <!-- DT -->
 <project path="device/xiaomi/sea" name="device_xiaomi_sea" remote="shazuxd" revision="14"/>
 <!-- IMS VT -->
-<project path="vendor/xiaomi/sea" name="vendor_xiaomi_sea" remote="shazu-xd" revision="13"/>
+<project path="vendor/xiaomi/sea" name="vendor_xiaomi_sea" remote="shazu-xd" revision="lineage-20.0"/>
 <!-- Vendor -->
 <project path="device/xiaomi/sea-vendor" name="android_device_xiaomi_sea-vendor" remote="bluk" revision="V14.0.8.0.THZMIXM"/>
 <!-- Sepolicy -->
