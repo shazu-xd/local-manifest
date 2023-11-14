@@ -14,7 +14,7 @@
 <!-- KT - Prebuilts -->
 <project path="device/xiaomi/fleur-kernel" name="device_xiaomi_fleur-kernel" remote="shazu-xd" revision="lineage-20"/>
 <!-- VT -->
-<project path="vendor/xiaomi/fleur" name="vendor_xiaomi_fleur" remote="shazu-xd" revision="oss13"/>
+<project path="vendor/xiaomi/fleur" name="vendor_xiaomi_fleur" remote="shazu-xd" revision="lineage-20"/>
 <!-- Kernel Headers -->
 <project path="kernel/xiaomi/fleur" name="Aghora7/kernel_xiaomi_sea" remote="git" revision="13"/>
 <!-- Sepolicy -->
