@@ -10,11 +10,11 @@
                 fetch="https://github.com" />
 
 <!-- DT -->
-<!-- <project path="device/xiaomi/fleur" name="device_xiaomi_fleur" remote="shazuxd" revision="lineage-20"/> -->
+<project path="device/xiaomi/fleur" name="device_xiaomi_fleur" remote="shazuxd" revision="dt"/> 
 <!-- KT - Prebuilts -->
 <project path="device/xiaomi/fleur-kernel" name="device_xiaomi_fleur-kernel" remote="shazu-xd" revision="lineage-20"/>
 <!-- VT -->
-<!-- <project path="vendor/xiaomi/fleur" name="vendor_xiaomi_fleur" remote="shazu-xd" revision="lineage-20"/> -->
+<project path="vendor/xiaomi/fleur" name="vendor_xiaomi_fleur" remote="shazu-xd" revision="dt"/> 
 <!-- Kernel Headers -->
 <project path="kernel/xiaomi/fleur" name="Aghora7/kernel_xiaomi_sea" remote="git" revision="13"/>
 <!-- Sepolicy -->
@@ -24,5 +24,5 @@
 <!-- Xiaomi -->
 <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="git" revision="lineage-20"/>
 <!-- Clang -->
-<project path="prebuilts/clang/host/linux-x86/proton-clang" name="kdrag0n/proton-clang" remote="git" revision="master"/>
+<!-- <project path="prebuilts/clang/host/linux-x86/proton-clang" name="kdrag0n/proton-clang" remote="git" revision="master"/> -->
 </manifest>
