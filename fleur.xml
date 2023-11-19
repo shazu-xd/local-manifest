@@ -6,30 +6,23 @@
         <remote name="shazuxd"
                 fetch="https://gitlab.com/shazuxd1" />
 
-        <remote name="msm8998"
-                fetch="https://github.com/AOSP-msm8998" />
-
-<!-- Remove Repos -->
-<remove-project name="system_sepolicy"/>
-<remove-project name="system_bpf"/>
-<remove-project name="packages_modules_Connectivity"/>
-<remove-project name="platform/frameworks/libs/net"/>
-<remove-project name="platform/system/netd"/>
+        <remote name="git"
+                fetch="https://github.com" />
 
 <!-- DT -->
-<project path="device/xiaomi/fleur" name="device_xiaomi_fleur" remote="shazu-xd" revision="14"/>
-<!-- IMS VT -->
-<project path="vendor/xiaomi/fleur" name="vendor_xiaomi_fleur" remote="shazu-xd" revision="twelve"/>
-<!-- Vendor -->
-<project path="device/xiaomi/fleur-vendor" name="device_xiaomi_fleur-vendor" remote="shazuxd" revision="thirteen"/>
+<project path="device/xiaomi/fleur" name="device_xiaomi_fleur" remote="shazuxd" revision="lineage-20"/>
+<!-- KT - Prebuilts -->
+<project path="device/xiaomi/fleur-kernel" name="device_xiaomi_fleur-kernel" remote="shazu-xd" revision="lineage-20"/>
+<!-- VT -->
+<project path="vendor/xiaomi/fleur" name="vendor_xiaomi_fleur" remote="shazu-xd" revision="lineage-20"/>
+<!-- Kernel Headers -->
+<project path="kernel/xiaomi/fleur" name="Aghora7/kernel_xiaomi_sea" remote="git" revision="13"/>
 <!-- Sepolicy -->
-<project path="system/sepolicy" name="system_sepolicy" remote="shazu-xd" revision="14"/>
-<!-- BPF -->
-<project path="system/bpf" name="system_bpf" remote="msm8998" revision="14-hack"/>
-<!-- Netd -->
-<project path="system/netd" name="system_netd" remote="msm8998" revision="14-hack"/>
-<!-- Connectivity -->
-<project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="msm8998" revision="14-hack"/>
-<!-- Net -->
-<project path="frameworks/libs/net" name="frameworks_libs_net" remote="msm8998" revision="14-hack"/>
+<project path="device/mediatek/sepolicy_vndr" name="xiaomi-mt6781-devs/android_device_mediatek_sepolicy_vndr" remote="git" revision="lineage-20"/>
+<!-- Hardware -->
+<project path="hardware/mediatek" name="nashc-dev/android_hardware_mediatek" remote="git" revision="lineage-20"/>
+<!-- Xiaomi -->
+<project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="git" revision="lineage-20"/>
+<!-- Clang -->
+<project path="prebuilts/clang/host/linux-x86/proton-clang" name="kdrag0n/proton-clang" remote="git" revision="master"/>
 </manifest>
